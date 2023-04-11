@@ -1,4 +1,4 @@
-# json2html
+# json2html (Works! But is not finished)
 Converts JSON data to an HTML table. This table can be copied and pasted into confluence docs or any other location. 
 
 This is a draft. Much of the script file can be credited to this article by geeksforgeeks! 
