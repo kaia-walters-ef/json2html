@@ -1,33 +1,26 @@
-var list = [
+// import data from "./data.json";
+
+const data = [
     {
         eventTemplateId:
             "PROMOTION_MATERIAL_DEADLINE_STUDENT_EXCITEDMENT_PPTX_PRESENTED",
-        "count()": "1",
+        "count()": "14",
     },
     {
         eventTemplateId: "PROMOTION_MATERIAL_DEADLINE_POSTERS_HUNG",
-        "count()": "1",
-    },
-    {
-        eventTemplateId: "PROMOTION_MATERIAL_DEADLINE_POSTERS_HUNG",
-        "count()": "4",
-    },
-    {
-        eventTemplateId:
-            "PROMOTION_MATERIAL_DEADLINE_STUDENT_EXCITEDMENT_PPTX_PRESENTED",
         "count()": "1",
     },
 ];
 
 function constructTable(selector) {
     // Getting the all column names
-    var cols = Headers(list, selector);
+    var cols = Headers(data, selector);
 
     // Traversing the JSON data
-    for (var i = 0; i < list.length; i++) {
+    for (var i = 0; i < data.length; i++) {
         var row = $("<tr/>");
         for (var colIndex = 0; colIndex < cols.length; colIndex++) {
-            var val = list[i][cols[colIndex]];
+            var val = data[i][cols[colIndex]];
 
             // If there is any key, which is matching
             // with the column name
@@ -40,12 +33,12 @@ function constructTable(selector) {
     }
 }
 
-function Headers(list, selector) {
+function Headers(data, selector) {
     var columns = [];
     var header = $("<tr/>");
 
-    for (var i = 0; i < list.length; i++) {
-        var row = list[i];
+    for (var i = 0; i < data.length; i++) {
+        var row = data[i];
 
         for (var k in row) {
             if ($.inArray(k, columns) == -1) {
