@@ -4,7 +4,7 @@ Converts JSON data to an HTML table. This table can be copied and pasted into co
 
 Unlike an online json2html converter, you have assurance that all operations take place locally and no requests are made.
 
-This is a draft. Much of the script file can be credited to this article by geeksforgeeks!
+This is a draft. Much of the script file can be credited to this article by geeksforgeeks
 https://www.geeksforgeeks.org/how-to-convert-json-data-to-a-html-table-using-javascript-jquery/
 
 Use
