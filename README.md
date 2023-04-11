@@ -11,9 +11,9 @@ Use
 
 -   Open the app in vs code or in finder
 -   Drag json2html.html into your browser
--   Add your data to data.json
+-   Add your data as the value of data in script.js
 -   click the button to produce an html table with your data
--   Copy and paste the data
+-   Copy and paste your new data table
 
 <img width="855" alt="image" src="https://user-images.githubusercontent.com/114420613/231201674-a70afea5-f6a2-4bb6-9843-7c601d7736fe.png">
 
