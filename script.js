@@ -1,5 +1,4 @@
 // import data from "./data.json";
-
 const data = [
     {
         eventTemplateId:
